@@ -1,0 +1,6 @@
+dbdata
+app/Login/bin
+app/Login/node_modules
+app/Login/tmp
+app/Login/vendor
+app/Login/log

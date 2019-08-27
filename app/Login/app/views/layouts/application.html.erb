@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <ul>
+    <li><%= link_to 'ユーザ一覧', users_path %></li>
+    <% if signed_in? %>
+      <li><%= link_to 'プロフィール', current_user %></li>
+      <li><%= link_to 'ログアウト', signout_path, method: :delete %></li>
+    <% else %>
+      <li><%= link_to 'ログイン', signin_path %></li>
+      <li><%= link_to 'アカウント作成', signup_path %></li>
+    <% end %>
+  </ul>
+
+  <hr>
+
+    <%= yield %>
+  </body>
+</html>
