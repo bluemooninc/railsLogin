@@ -6252,68 +6252,6 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1175900509">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Dockerfile" value="2" />
-          <entry key="Gemfile" value="2" />
-          <entry key="erb" value="73" />
-          <entry key="gitignore" value="2" />
-          <entry key="json" value="1" />
-          <entry key="log" value="1" />
-          <entry key="md" value="2" />
-          <entry key="me" value="1" />
-          <entry key="rb" value="86" />
-          <entry key="ru" value="1" />
-          <entry key="scss" value="4" />
-          <entry key="yml" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Dockerfile" value="2" />
-          <entry key="JSON" value="1" />
-          <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="RHTML" value="73" />
-          <entry key="Ruby" value="89" />
-          <entry key="SCSS" value="4" />
-          <entry key="YAML" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Dockerfile" value="43" />
-          <entry key="Gemfile" value="11" />
-          <entry key="erb" value="346" />
-          <entry key="gitignore" value="5" />
-          <entry key="md" value="155" />
-          <entry key="me" value="696" />
-          <entry key="rb" value="285" />
-          <entry key="yml" value="82" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Dockerfile" value="43" />
-          <entry key="Markdown" value="155" />
-          <entry key="PLAIN_TEXT" value="701" />
-          <entry key="RHTML" value="346" />
-          <entry key="Ruby" value="296" />
-          <entry key="YAML" value="82" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -6554,7 +6492,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>

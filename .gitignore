@@ -1,8 +1,8 @@
 .idea
 .git
 dbdata
-# app/Login/bin
-# app/Login/node_modules
+app/Login/bin
+app/Login/node_modules
 # app/Login/tmp
 # app/Login/vender
 # app/Login/log
