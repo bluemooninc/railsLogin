@@ -16,13 +16,13 @@ git clone https://github.com/bluemooninc/railsLogin.git
 docker-compose up -d
 ```
 
-## Start server
+## Start web server
 
 ```
 # SSH login to docker image
 docker-compose exec web bash
 
-# Start with your
+# Start the web server
 cd Login
 rails s -b 0.0.0.0
 => Booting Puma
@@ -44,6 +44,8 @@ http://localhost:3000/
 ```
 
 ## Check the email from your local browser
+
+You can check your email from web server.
 
 ```
 http://localhost:3000/letter_opener

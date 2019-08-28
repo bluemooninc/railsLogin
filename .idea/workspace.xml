@@ -6230,6 +6230,7 @@
       <change afterPath="$PROJECT_DIR$/app/Login/vender/bundle/ruby/2.5.0/specifications/xpath-3.2.0.gemspec" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Login/vender/bundle/ruby/2.5.0/specifications/zeitwerk-2.1.9.gemspec" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Login/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -6291,7 +6292,7 @@
           <entry key="Gemfile" value="11" />
           <entry key="erb" value="346" />
           <entry key="gitignore" value="2" />
-          <entry key="md" value="90" />
+          <entry key="md" value="155" />
           <entry key="me" value="696" />
           <entry key="rb" value="285" />
           <entry key="yml" value="82" />
@@ -6300,7 +6301,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="43" />
-          <entry key="Markdown" value="90" />
+          <entry key="Markdown" value="155" />
           <entry key="PLAIN_TEXT" value="698" />
           <entry key="RHTML" value="346" />
           <entry key="Ruby" value="296" />
@@ -6365,8 +6366,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="132">
-                <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <first_editor relative-caret-position="557">
+                <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               </first_editor>
               <second_editor />
             </state>
@@ -6598,15 +6599,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566874541801</updated>
-      <workItem from="1566874542872" duration="41616000" />
+      <workItem from="1566874542872" duration="41955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41616000" />
+    <option name="totallyTimeSpent" value="41955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1448" y="-515" width="2799" height="1303" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15596662" />
@@ -6942,8 +6944,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="132">
-            <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <first_editor relative-caret-position="557">
+            <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           </first_editor>
           <second_editor />
         </state>
