@@ -25,15 +25,11 @@ docker exec -it railslogin_web_1 bash
 
 # install middleware
 cd Login
-npm init -y
-npm install --save-dev webpack
-npm install --save-dev webpack-cli
-yarn install --check-files
 bundle install
+yarn add webpack webpack-cli webpack-merge js-yaml path-complete-extname webpack-manifest-plugin babel-loader@7.x coffee-loader coffee-script babel-core babel-preset-env babel-polyfill compression-webpack-plugin rails-erb-loader glob extract-text-webpack-plugin node-sass file-loader sass-loader css-loader style-loader postcss-loader autoprefixer postcss-smart-import precss resolve-url-loader babel-plugin-syntax-dynamic-import babel-plugin-transform-class-properties 
+
+# prepare database
 rake db:migrate
-./bin/rails webpacker:install
-./bin/rails webpacker:install:vue
-bin/webpack
 
 # Start the web server
 rails s -b 0.0.0.0
