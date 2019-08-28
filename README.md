@@ -31,6 +31,9 @@ npm install --save-dev webpack-cli
 yarn install --check-files
 bundle install
 rake db:migrate
+./bin/rails webpacker:install
+./bin/rails webpacker:install:vue
+bin/webpack
 
 # Start the web server
 rails s -b 0.0.0.0
