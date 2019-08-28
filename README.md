@@ -25,6 +25,7 @@ docker-compose exec web bash
 
 # Start the web server
 cd Login
+bundle install
 rails s -b 0.0.0.0
 => Booting Puma
 => Rails 6.0.0 application starting in development
