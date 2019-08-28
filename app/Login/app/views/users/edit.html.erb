@@ -1,15 +1,16 @@
 <h1>アカウント編集</h1>
 
 <%= form_for(@user) do |f| %>
+  <%= render 'layouts/error_messages', model: f.object %>
 
   <table border="1">
     <tr>
-      <th><%= f.label :name, '名前' %></th>
-      <td><%= f.text_field :name %></td>
+      <th><%= f.label :email, 'メールアドレス' %></th>
+      <td><%= @user.email %></td>
     </tr>
     <tr>
-      <th><%= f.label :email, 'メールアドレス' %></th>
-      <td><%= f.text_field :email %></td>
+      <th><%= f.label :name, '名前' %></th>
+      <td><%= f.text_field :name %></td>
     </tr>
     <tr>
       <th><%= f.label :password, 'パスワード' %></th>

@@ -1,7 +1,9 @@
 <h1>ユーザ一覧</h1>
-
 <ul>
   <% @users.each do |user| %>
     <li><%= link_to user.name, user %></li>
   <% end %>
+
+  <%= link_to "(forgot password)", new_password_reset_path %>
+
 </ul>

@@ -1,0 +1,23 @@
+<% provide(:title, "Forgot password") %>
+<div class="container">
+  <div class="ta_center">
+    <br>
+    <br>
+    <br>
+    <h1 class="title_signup">Forgot password</h1>
+
+    <p>登録済みのメールアドレスを入力してください</p>
+    <%= form_with(scope: :password_reset, url: password_resets_path, html: {class: ''}, local: true) do |f| %>
+      <table class="mr_auto ml_auto">
+        <tr>
+          <th><%= f.label :email %></th>
+          <td><%= f.email_field :email, class: 'form-control' %></td>
+        </tr>
+      </table>
+      <%= f.submit "Submit", class: "btn btn-primary" %>
+    <% end %>
+    <br>
+    <br>
+    <br>
+  </div>
+</div>

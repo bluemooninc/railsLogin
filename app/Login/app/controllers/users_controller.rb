@@ -20,6 +20,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
+      UserMailer.account_activation(@user).deliver_now
+      flash[:info] = "Please check your email to activate your account."
+      ## NotificationMailer.send_confirm_to_user(@user).deliver
       sign_in @user
       redirect_to @user
     else
@@ -29,6 +32,7 @@ class UsersController < ApplicationController
 
   def update
     if @user.update_attributes(user_params)
+      NotificationMailer.send_confirm_to_user(@user).deliver
       redirect_to @user
     else
       render 'edit'

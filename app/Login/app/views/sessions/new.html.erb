@@ -9,6 +9,7 @@
     </tr>
     <tr>
       <th><%= f.label :password, 'パスワード' %></th>
+      <%= link_to "(forgot password)", new_password_reset_path %>
       <td><%= f.password_field :password %></td>
     </tr>
   </table>

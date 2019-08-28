@@ -15,9 +15,17 @@ module SessionsHelper
     @current_user = user
   end
 
+  # 現在ログイン中のユーザーを返す (いる場合)
   def current_user
-    remember_token = User.encrypt(cookies[:remember_token])
-    @current_user ||= User.find_by(remember_token: remember_token)
+    if (user_id = session[:user_id])
+      @current_user ||= User.find_by(id: user_id)
+    elsif (user_id = cookies.signed[:user_id])
+      user = User.find_by(id: user_id)
+      if user && user.authenticated?(:remember, cookies[:remember_token])
+        log_in user
+        @current_user = user
+      end
+    end
   end
 
   def current_user?(user)
@@ -25,7 +33,7 @@ module SessionsHelper
   end
 
   def signed_in?
-    !current_user.nil?
+    !self.current_user.nil?
   end
 
   def signed_in_user
