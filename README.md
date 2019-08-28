@@ -27,6 +27,7 @@ docker-compose exec web bash
 cd Login
 bundle install
 yarn install --check-files
+rake db:migrate
 rails s -b 0.0.0.0
 => Booting Puma
 => Rails 6.0.0 application starting in development
