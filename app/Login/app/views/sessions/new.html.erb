@@ -1,4 +1,4 @@
-<h1>ログイン</h1>
+<h1>Login</h1>
 
 <%= render 'layouts/flash_messages' %>
 
@@ -6,16 +6,16 @@
 
   <table border="1">
     <tr>
-      <th><%= f.label :email, 'メールアドレス' %></th>
+      <th><%= f.label :email, 'Email address' %></th>
       <td><%= f.text_field :email %></td>
     </tr>
     <tr>
-      <th><%= f.label :password, 'パスワード' %></th>
+      <th><%= f.label :password, 'Password' %></th>
       <%= link_to "(forgot password)", new_password_reset_path %>
       <td><%= f.password_field :password %></td>
     </tr>
   </table>
 
-  <%= f.submit 'ログインする' %>
+  <%= f.submit 'LOGIN' %>
 
 <% end %>

@@ -1,12 +1,13 @@
 <% provide(:title, "Forgot password") %>
+
+<%= render 'layouts/flash_messages' %>
+
 <div class="container">
   <div class="ta_center">
     <br>
-    <br>
-    <br>
     <h1 class="title_signup">Forgot password</h1>
 
-    <p>登録済みのメールアドレスを入力してください</p>
+    <p>Please enter your registered email address.</p>
     <%= form_with(scope: :password_reset, url: password_resets_path, html: {class: ''}, local: true) do |f| %>
       <table class="mr_auto ml_auto">
         <tr>

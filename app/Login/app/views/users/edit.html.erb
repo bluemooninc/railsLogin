@@ -7,23 +7,23 @@
 
   <table border="1">
     <tr>
-      <th><%= f.label :email, 'メールアドレス' %></th>
+      <th><%= f.label :email, 'Email address' %></th>
       <td><%= @user.email %></td>
     </tr>
     <tr>
-      <th><%= f.label :name, '名前' %></th>
+      <th><%= f.label :name, 'Name' %></th>
       <td><%= f.text_field :name %></td>
     </tr>
     <tr>
-      <th><%= f.label :password, 'パスワード' %></th>
+      <th><%= f.label :password, 'Password' %></th>
       <td><%= f.password_field :password %></td>
     </tr>
     <tr>
-      <th><%= f.label :password_confirmation, '確認' %></th>
+      <th><%= f.label :password_confirmation, 'Confirmation password' %></th>
       <td><%= f.password_field :password_confirmation %></td>
     </tr>
   </table>
 
-  <%= f.submit 'アカウントを編集する' %>
+  <%= f.submit 'Edit account' %>
 
 <% end %>

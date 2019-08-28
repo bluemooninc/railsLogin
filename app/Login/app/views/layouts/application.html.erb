@@ -11,13 +11,13 @@
 
   <body>
   <ul>
-    <li><%= link_to 'ユーザ一覧', users_path %></li>
+    <li><%= link_to 'Users list', users_path %></li>
     <% if signed_in? %>
-      <li><%= link_to 'プロフィール', current_user %></li>
-      <li><%= link_to 'ログアウト', signout_path, method: :delete %></li>
+      <li><%= link_to 'Profile', current_user %></li>
+      <li><%= link_to 'Logout', signout_path, method: :delete %></li>
     <% else %>
-      <li><%= link_to 'ログイン', signin_path %></li>
-      <li><%= link_to 'アカウント作成', signup_path %></li>
+      <li><%= link_to 'Login', signin_path %></li>
+      <li><%= link_to 'User registration', signup_path %></li>
     <% end %>
   </ul>
 
