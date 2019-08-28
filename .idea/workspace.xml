@@ -6230,7 +6230,7 @@
       <change afterPath="$PROJECT_DIR$/app/Login/vender/bundle/ruby/2.5.0/specifications/xpath-3.2.0.gemspec" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Login/vender/bundle/ruby/2.5.0/specifications/zeitwerk-2.1.9.gemspec" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Login/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -6256,8 +6256,10 @@
     <session id="1175900509">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -6265,7 +6267,8 @@
           <entry key="Dockerfile" value="2" />
           <entry key="Gemfile" value="2" />
           <entry key="erb" value="73" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
+          <entry key="json" value="1" />
           <entry key="log" value="1" />
           <entry key="md" value="2" />
           <entry key="me" value="1" />
@@ -6278,8 +6281,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dockerfile" value="2" />
+          <entry key="JSON" value="1" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="RHTML" value="73" />
           <entry key="Ruby" value="89" />
           <entry key="SCSS" value="4" />
@@ -6291,7 +6295,7 @@
           <entry key="Dockerfile" value="43" />
           <entry key="Gemfile" value="11" />
           <entry key="erb" value="346" />
-          <entry key="gitignore" value="2" />
+          <entry key="gitignore" value="5" />
           <entry key="md" value="155" />
           <entry key="me" value="696" />
           <entry key="rb" value="285" />
@@ -6302,7 +6306,7 @@
         <counts>
           <entry key="Dockerfile" value="43" />
           <entry key="Markdown" value="155" />
-          <entry key="PLAIN_TEXT" value="698" />
+          <entry key="PLAIN_TEXT" value="701" />
           <entry key="RHTML" value="346" />
           <entry key="Ruby" value="296" />
           <entry key="YAML" value="82" />
@@ -6311,21 +6315,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Login/app/assets/stylesheets/sessions.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Login/app/controllers/sessions_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Login/app/controllers/password_resets_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -6362,14 +6352,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="557">
-                <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+                <caret line="40" selection-start-line="40" selection-end-line="40" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Login/public/packs/manifest.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -6473,7 +6477,6 @@
         <option value="$PROJECT_DIR$/app/Login/test/models/user_test.rb" />
         <option value="$PROJECT_DIR$/app/Login/app/controllers/account_activations_controller.rb" />
         <option value="$PROJECT_DIR$/app/Login/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/Login/app/views/shared/_error_messages.html.erb" />
         <option value="$PROJECT_DIR$/app/Login/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/Login/app/views/layouts/_flash_messages.html.erb" />
@@ -6494,6 +6497,7 @@
         <option value="$PROJECT_DIR$/README.me" />
         <option value="$PROJECT_DIR$/app/Login/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -6514,11 +6518,10 @@
       <path value="$PROJECT_DIR$/app/Login/vender/bundle/ruby/2.5.0/gems/webpacker-4.0.7/test/test_app/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1448" />
-    <option name="y" value="-515" />
-    <option name="width" value="2799" />
-    <option name="height" value="1303" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1594" />
+    <option name="height" value="964" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -6537,28 +6540,12 @@
             <path>
               <item name="userregist" type="b2602c69:ProjectViewProjectNode" />
               <item name="userregist" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="dbdata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="userregist" type="b2602c69:ProjectViewProjectNode" />
               <item name="userregist" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="userregist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userregist" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="userregist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userregist" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -6599,19 +6586,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566874541801</updated>
-      <workItem from="1566874542872" duration="41955000" />
+      <workItem from="1566874542872" duration="42515000" />
+      <workItem from="1566993687853" duration="849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41955000" />
+    <option name="totallyTimeSpent" value="43364000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1448" y="-515" width="2799" height="1303" extended-state="0" />
+    <frame x="0" y="23" width="1678" height="964" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15596662" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26466992" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -6625,7 +6613,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.058034096" />
+      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.09779951" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -6638,9 +6626,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Login/test/mailers/previews/notification_mailer_preview.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Login/test/mailers/user_mailer_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -6725,13 +6710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6">
           <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -6874,6 +6852,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.me" />
     <entry file="file://$PROJECT_DIR$/app/Login/app/assets/stylesheets/sessions.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -6905,10 +6884,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Login/app/controllers/users_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/Login/app/helpers/sessions_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="180">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -6927,17 +6906,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.me">
+    <entry file="file://$PROJECT_DIR$/app/Login/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Login/app/helpers/sessions_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -6945,9 +6917,19 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="557">
-            <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <caret line="40" selection-start-line="40" selection-end-line="40" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Login/public/packs/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>

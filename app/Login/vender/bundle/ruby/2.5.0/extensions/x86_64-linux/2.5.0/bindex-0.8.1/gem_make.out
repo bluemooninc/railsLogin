@@ -1,0 +1,15 @@
+current directory: /app/Login/vender/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+/usr/local/bin/ruby -r ./siteconf20190828-14374-kdxz0h.rb extconf.rb
+creating Makefile
+
+current directory: /app/Login/vender/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /app/Login/vender/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /app/Login/vender/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20190828-14374-1izzsp3/skiptrace/internal
