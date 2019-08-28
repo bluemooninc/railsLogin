@@ -6288,7 +6288,7 @@
           <entry key="Gemfile" value="11" />
           <entry key="erb" value="78" />
           <entry key="gitignore" value="2" />
-          <entry key="rb" value="215" />
+          <entry key="rb" value="250" />
           <entry key="yml" value="82" />
         </counts>
       </usages-collector>
@@ -6297,7 +6297,7 @@
           <entry key="Dockerfile" value="43" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="RHTML" value="78" />
-          <entry key="Ruby" value="226" />
+          <entry key="Ruby" value="261" />
           <entry key="YAML" value="82" />
         </counts>
       </usages-collector>
@@ -6326,8 +6326,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Login/app/helpers/sessions_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state relative-caret-position="30">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -6353,8 +6353,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Login/app/controllers/sessions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            <state relative-caret-position="435">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -6477,13 +6477,13 @@
         <option value="$PROJECT_DIR$/app/Login/app/controllers/password_resets_controller.rb" />
         <option value="$PROJECT_DIR$/app/Login/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/Login/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/Login/app/helpers/sessions_helper.rb" />
         <option value="$PROJECT_DIR$/app/Login/app/views/layouts/_flash_messages.html.erb" />
         <option value="$PROJECT_DIR$/app/Login/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/Login/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/app/Login/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/app/Login/app/views/users/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/Login/app/views/sessions/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/Login/app/helpers/sessions_helper.rb" />
         <option value="$PROJECT_DIR$/app/Login/app/controllers/sessions_controller.rb" />
       </list>
     </option>
@@ -6574,6 +6574,14 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Login" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="userregist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userregist" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -6642,12 +6650,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566874541801</updated>
-      <workItem from="1566874542872" duration="36115000" />
+      <workItem from="1566874542872" duration="36627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36115000" />
+    <option name="totallyTimeSpent" value="36627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1448" y="-515" width="1680" height="1303" extended-state="0" />
@@ -6934,13 +6942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Login/app/helpers/sessions_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Login/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -6957,13 +6958,6 @@
     <entry file="file://$PROJECT_DIR$/app/Login/app/assets/stylesheets/sessions.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Login/app/views/layouts/_flash_messages.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Login/app/views/users/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -6978,6 +6972,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Login/app/helpers/sessions_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Login/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -6985,10 +6986,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Login/app/views/users/edit.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/Login/app/views/layouts/_flash_messages.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="1" selection-end-line="3" />
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -6999,10 +7000,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Login/app/views/users/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="1" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Login/app/controllers/sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

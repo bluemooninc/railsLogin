@@ -1,3 +1,5 @@
+.idea
+.git
 dbdata
 app/Login/bin
 app/Login/node_modules
