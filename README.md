@@ -21,16 +21,17 @@ docker-compose up -d
 
 ```
 # SSH login to docker image
-docker-compose exec web bash
+docker exec -it railslogin_web_1 bash
 
 # install middleware
 cd Login
-bundle install
-rake db:migrate
 npm init -y
 npm install --save-dev webpack
 npm install --save-dev webpack-cli
 yarn install --check-files
+bundle install
+rake db:migrate
+
 # Start the web server
 rails s -b 0.0.0.0
 => Booting Puma
