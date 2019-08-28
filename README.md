@@ -13,6 +13,7 @@ Download or clone from this Github repository.
 git clone https://github.com/bluemooninc/railsLogin.git
 
 # Boot docker container Rails and PostgreSQL
+cd railsLogin
 docker-compose up -d
 ```
 
