@@ -1,5 +1,7 @@
 <h1>アカウント編集</h1>
 
+<%= render 'layouts/flash_messages' %>
+
 <%= form_for(@user) do |f| %>
   <%= render 'layouts/error_messages', model: f.object %>
 

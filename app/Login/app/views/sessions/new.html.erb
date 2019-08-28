@@ -1,5 +1,7 @@
 <h1>ログイン</h1>
 
+<%= render 'layouts/flash_messages' %>
+
 <%= form_for(:session, url: sessions_path) do |f| %>
 
   <table border="1">
