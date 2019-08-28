@@ -23,11 +23,15 @@ docker-compose up -d
 # SSH login to docker image
 docker-compose exec web bash
 
-# Start the web server
+# install middleware
 cd Login
 bundle install
-yarn install --check-files
 rake db:migrate
+npm init -y
+npm install --save-dev webpack
+npm install --save-dev webpack-cli
+yarn install --check-files
+# Start the web server
 rails s -b 0.0.0.0
 => Booting Puma
 => Rails 6.0.0 application starting in development
